@@ -18,16 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: COMP 110 New and Improved
+email: cooperstreiff@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+  This website presents my EX09 data analysis project for COMP110. The goal of the project is to use anonymized course survey data to identify a possible way to improve the course. My analysis focuses on whether COMP110 should add more low-stakes, quiz-style programming practice for students, especially those with less prior programming experience. I use survey responses about prior programming experience, course difficulty, programming assignment effectiveness, quiz effectiveness, understanding, and course recommendation to explore whether the data supports this idea. The website includes a summary of my reasoning, visualizations created with seaborn, and a conclusion explaining what the data suggests about improving student learning in COMP110.
+baseurl: "/improved_course" # the subpath of your site, e.g. /blog
+url: "cstreiff7.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  cstreiff7
 
 # Build settings
 # Build settings
